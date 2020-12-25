@@ -500,9 +500,59 @@ h5,h6{
 }
 /*
 ==================================================
-|   |   |   
+|   |   |   Coockie
 ==================================================
 */
+.cookie-container {
+    position: fixed;
+    bottom: -100%;
+    left: 0;
+    right: 0;
+    background: #fff;
+    color: #000;
+    padding: 50px 0px;
+    box-shadow: 0 -2px 16px rgba(47, 54, 64, 0.39);
+    height: 90vh;
+    transition: 400ms;
+}
+
+.cookie-container.active {
+    bottom: 0;
+}
+
+.cookie-container a {
+    color: #f5f6fa;
+}
+
+.cookie-btn {
+    background: #13618b;
+    border: 0;
+    color: #f5f6fa;
+    padding: 12px 30px;
+    font-size: 18px;
+    margin-bottom: 16px;
+    cursor: pointer;
+}
+
+.cookie-btn-2 {
+    background: #e84118;
+    border: 0;
+    color: #f5f6fa;
+    padding: 12px 30px;
+    font-size: 18px;
+    margin-bottom: 16px;
+    cursor: pointer;
+}
+
+.mb {
+    text-align: right;
+    margin-top: 20px;
+}
+
+.bb {
+    text-align: left;
+    margin-top: 20px;
+}
 
 
 
