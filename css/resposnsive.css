@@ -1,0 +1,464 @@
+@media (min-width: 1025px) and (max-width: 1200px) {
+    
+    .depart-img{
+        padding-bottom: 5px;
+        width: 100%;
+        margin: 0px auto 20px;
+        text-align: center;
+    }
+    
+    .depart-img img{
+        width: 80%;
+    }
+}
+
+/* 
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .navbar .nav-link {
+        font-size: 16px;
+        text-align: center;
+    }
+    
+    .nav-link:hover,
+    .nav-link:focus,
+    .nav-link:active {
+        color: #ffc178 !important;
+        border-bottom: none;
+    }
+
+    .navbar-nav .active > .nav-link {
+        font-size: 14px;
+        border-bottom: none;
+    }
+
+    .nav-item {
+        text-align: center;
+    }
+    
+   
+
+   /*========Department + About Section============*/
+    
+    .department{
+        padding-bottom: 90px;
+    }
+ 
+    .depart-title p{
+        font-size: 14px;
+    }
+    
+    .depart-img{
+        padding-bottom: 5px;
+        width: 100%;
+        margin: 0px auto 20px;
+        text-align: center;
+    }
+    
+    .depart-img img{
+        width: 80%;
+    }
+    
+    .depart-img h5{
+        font-size: 24px;
+    }
+    .about-img img{
+        margin-left: -35px; 
+    }
+    
+    .about-text h1{
+        font-size: 26px;
+    }
+    
+    .about-text p{
+        font-size: 14px;
+    }
+    
+    /*========Footer Widget + Footer Section============*/
+    .widget{
+        padding: 50px 0px 10px;
+    }
+    .widget-inner img{
+        width: 80%;
+    }
+    
+    /*========Footer Widget + Footer Section============*/
+    .widget-inner{
+        text-align: left;
+        margin-bottom: 50px;
+    }
+    
+    .widget-inner p {
+        font-size: 11px;
+    }
+
+    .widget-inner .list-group span {
+        font-size: 10px;
+    }
+
+    .widget-inner .list-group-item {
+        font-size: 11px;
+        padding: 2px 0px;
+    }
+    .footer-social li{
+        font-size: 14px;
+        margin-right: 3px;
+    }
+    .copy p {
+        font-size: 14px;
+        text-align: center;
+    }
+    
+    .footer-nav ul {
+        text-align: center;
+    }
+    .footer-nav ul li a{
+        font-size: 10px;
+    }
+
+}
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+    
+        .navbar .nav-link {
+        font-size: 14px;
+        text-align: center;
+
+    }
+
+    .nav-link:hover,
+    .nav-link:focus,
+    .nav-link:active {
+        color: #ffc178 !important;
+        border-bottom: none;
+    }
+
+    .navbar-nav .active > .nav-link {
+        font-size: 14px;
+        border-bottom: none;
+    }
+
+    .nav-item {
+        text-align: center;
+    }
+
+    .btn-apply {
+        margin-top: 20px;
+    }
+
+
+    /*========Home Section============*/
+
+    .hero-inner {
+        padding: 10px 0px;
+        text-align: center;
+    }
+
+    .hero-inner h1 {
+        font-size: 32px;
+    }
+
+    .hero-inner p {
+        font-size: 16px;
+    }
+
+    /*========Department + About Section============*/
+    
+ 
+    .depart-title p{
+        font-size: 14px;
+    }
+    
+    .depart-img{
+        padding-bottom: 5px;
+        width: 60%;
+        margin: 0px auto 20px;
+        text-align: center;
+    }
+    
+    .depart-img img{
+        width: 80%;
+    }
+    
+    .depart-img h5{
+        font-size: 24px;
+    }
+    
+    .about-img{
+        padding: 20px 0px 0px;
+    }
+    
+    .about-img{
+        text-align: center;
+    }
+    .about-text h1{
+        font-size: 28px;
+        text-align: center;
+    }
+    .about-text p{
+        font-size: 16px;
+    }
+    
+    .students p{
+        text-align: center;
+    }
+    
+     .courses p{
+        text-align: center;
+    }
+    
+     .videos p{
+        text-align: center;
+    }
+    
+    /*========Around the University Section============*/
+    .around-uni{
+        padding: 0px;
+    }
+    .uni-title{
+        padding: 10px 0px;
+    }
+    .uni-title h1{
+        font-size: 28px;
+    }
+    
+    .around-uni .card{
+        margin: 5px 0px;
+    }
+    
+    .around-uni .card-title{
+        font-size: 16px;
+        font-weight: 400;
+    }
+    
+    /*========Footer Widget + Footer Section============*/
+    .widget{
+        padding: 50px 0px 10px;
+    }
+    .widget-inner {
+        text-align: left;
+        margin-bottom: 50px;
+    }
+
+    .widget-inner p {
+        font-size: 12px;
+    }
+
+    .widget-inner .list-group span {
+        font-size: 10px;
+    }
+
+    .widget-inner .list-group-item {
+        font-size: 12px;
+        padding: 5px 0px;
+    }
+
+    .widget-inner .form-inline {
+        width: 80%;
+    }
+
+    .copy p {
+        font-size: 14px;
+        text-align: center;
+    }
+
+    .footer-nav ul {
+        text-align: center;
+    }
+
+    .footer-nav ul li a {
+        font-size: 14px;
+    }
+    
+}
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+    /*========Nav Section============*/
+    .navbar .nav-link {
+        font-size: 14px;
+        text-align: center;
+
+    }
+
+    .nav-link:hover,
+    .nav-link:focus,
+    .nav-link:active {
+        color: #ffc178 !important;
+        border-bottom: none;
+    }
+
+    .navbar-nav .active > .nav-link {
+        font-size: 14px;
+        border-bottom: none;
+    }
+
+    .nav-item {
+        text-align: center;
+    }
+
+    .btn-apply {
+        margin-top: 20px;
+    }
+
+
+    /*========Home Section============*/
+
+    .hero-inner {
+        padding: 10px 0px;
+        text-align: center;
+    }
+
+    .hero-inner h1 {
+        font-size: 22px;
+    }
+
+    .hero-inner p {
+        font-size: 12px;
+    }
+
+    /*========Department + About Section============*/
+    
+    .depart-title h1{
+        font-size: 28px;
+    }
+    .depart-title p{
+        font-size: 18px;
+    }
+    
+    .depart-img{
+        padding-bottom: 10px;
+        width: 60%;
+        margin: 0px auto 20px;
+        text-align: center;
+    }
+    
+    .depart-img img{
+        width: 80%;
+    }
+    .depart-img h5{
+        font-size: 16px;
+    }
+    
+    .about-img{
+        padding: 20px 0px 0px;
+    }
+    
+    .about-img{
+        text-align: center;
+    }
+    .about-text h1{
+        font-size: 22px;
+        text-align: center;
+    }
+    .about-text p{
+        font-size: 16px;
+    }
+    
+    .students p{
+        text-align: center;
+    }
+    
+     .courses p{
+        text-align: center;
+    }
+    
+     .videos p{
+        text-align: center;
+    }
+    
+    /*========Around the University Section============*/
+    .around-uni{
+        padding: 0px;
+    }
+    .uni-title{
+        padding: 10px 0px;
+    }
+    .uni-title h1{
+        font-size: 28px;
+    }
+    
+    .around-uni .card{
+        margin: 10px 0px;
+    }
+    
+    .around-uni .card-title{
+        font-size: 12px;
+        font-weight: 400;
+    }
+    .around-uni .card-text{
+        font-size: 10px;
+        font-weight: 300;
+    }
+    
+    /*========Footer Widget + Footer Section============*/
+    .widget{
+        padding: 50px 0px 10px;
+    }
+    .widget-inner{
+        text-align: left;
+        margin-bottom: 50px;
+    }
+    
+    .copy p {
+        font-size: 14px;
+        text-align: center;
+    }
+    
+    .footer-nav ul {
+        text-align: center;
+    }
+    .footer-nav ul li a{
+        font-size: 10px;
+    }
+   
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
